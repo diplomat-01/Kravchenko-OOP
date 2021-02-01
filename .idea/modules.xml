@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Kravchenko-OOP.iml" filepath="$PROJECT_DIR$/.idea/Kravchenko-OOP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Range/Range.iml" filepath="$PROJECT_DIR$/Range/Range.iml" />
     </modules>
   </component>
 </project>
