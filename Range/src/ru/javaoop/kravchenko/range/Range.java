@@ -1,7 +1,39 @@
 package ru.javaoop.kravchenko.range;
 
 public class Range {
-    public static void main(String[] args) {
+    private double from;
+    private double to;
 
+    public Range(double from, double to) {
+        this.from = from;
+        this.to = to;
+    }
+
+    public double getFrom() {
+        return from;
+    }
+
+    public void setFrom(double from) {
+        this.from = from;
+    }
+
+    public double getTo() {
+        return to;
+    }
+
+    public void setTo(double to) {
+        this.to = to;
+    }
+
+    public void print() {
+        System.out.printf("Диапазон от %.2f до %.2f%n", from, to);
+    }
+
+    public double getLength() {
+        return to - from;
+    }
+
+    public boolean isInside(double number) {
+        return number >= from && number <= to;
     }
 }
